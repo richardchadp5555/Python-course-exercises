@@ -17,4 +17,7 @@ print("Boolean True", booleanTrue, "| Type:", type(booleanTrue))
 print("Boolean False: ", booleanFalse, "| Type: ", type(booleanFalse))
 
 # String
-stringValue = 
+stringValue = "Hello Python"
+print("String value: ", stringValue, "| Type: ", type(stringValue))
+
+#Verifiying Git tracking
