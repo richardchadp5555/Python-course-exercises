@@ -17,5 +17,8 @@ En este directorio voy guardando ejercicios y ejemplos básicos para practicar e
   - `get()`: Accede a un valor por su clave, con una opción de valor predeterminado si la clave no existe.
   - `pop()`: Elimina y devuelve el valor de una clave, con opción de valor predeterminado.
   - Recorrer el diccionario con `keys()`, `values()` e `items()`.
+
+- **ejercicio_1_diccionarios.py**: Programa que pide al usuario una cadena de texto y devuelve un diccionario con el número de apariciones de cada carácter en la cadena.
+
   
 Este directorio es parte de mi material de estudio personal en Python, donde guardo ejercicios para afianzar conceptos y experimentar con código.
