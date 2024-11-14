@@ -1,0 +1,13 @@
+# Diccionarios en Python
+
+En este directorio voy guardando ejercicios y ejemplos básicos para practicar el uso de diccionarios en Python. Los diccionarios son una estructura de datos mutable que almacena pares de clave-valor, y me permiten acceder a los datos de forma rápida usando una clave única.
+
+## Archivos
+
+- **diccionarios1.py**: En este archivo estoy probando diferentes operaciones con diccionarios, como:
+  - Crear, acceder, modificar y eliminar elementos.
+  - Verificar si una clave existe.
+  - Copiar un diccionario con `copy()`.
+  - Obtener el tamaño del diccionario con `len()`.
+  
+Este directorio es parte de mi material de estudio personal en Python, donde guardo ejercicios para afianzar conceptos y experimentar con código.
