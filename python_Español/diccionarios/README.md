@@ -9,5 +9,13 @@ En este directorio voy guardando ejercicios y ejemplos básicos para practicar e
   - Verificar si una clave existe.
   - Copiar un diccionario con `copy()`.
   - Obtener el tamaño del diccionario con `len()`.
+
+- **diccionarios2.py**: Ejemplos de algunos métodos esenciales al trabajar con diccionarios, como:
+  - `clear()`: Elimina todos los elementos del diccionario.
+  - `copy()`: Crea una copia superficial del diccionario.
+  - `update()`: Añade los elementos de otro diccionario.
+  - `get()`: Accede a un valor por su clave, con una opción de valor predeterminado si la clave no existe.
+  - `pop()`: Elimina y devuelve el valor de una clave, con opción de valor predeterminado.
+  - Recorrer el diccionario con `keys()`, `values()` e `items()`.
   
 Este directorio es parte de mi material de estudio personal en Python, donde guardo ejercicios para afianzar conceptos y experimentar con código.
