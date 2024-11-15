@@ -19,6 +19,10 @@ En este directorio voy guardando ejercicios y ejemplos básicos para practicar e
   - Recorrer el diccionario con `keys()`, `values()` e `items()`.
 
 - **ejercicio_1_diccionarios.py**: Programa que pide al usuario una cadena de texto y devuelve un diccionario con el número de apariciones de cada carácter en la cadena.
+- **ejercicio_2_diccionarios.py**: Programa que permite gestionar un inventario de frutas con precios fijos. Solicita al usuario el nombre de la fruta y la cantidad vendida, calcula el precio total y muestra el resultado. Incluye:
+  - Validación de la existencia de la fruta en el diccionario.
+  - Manejo de errores para entradas no numéricas en la cantidad.
+  - Funcionalidad para repetir la consulta según la elección del usuario.
 
   
 Este directorio es parte de mi material de estudio personal en Python, donde guardo ejercicios para afianzar conceptos y experimentar con código.
