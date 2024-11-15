@@ -14,7 +14,7 @@ Each folder represents a specific topic and contains:
 ## About this course
 I'm currently a 2nd-year student in Multiplatform Application Development (DAM). This course helps me depend my Python knowledge, and the exercises in this repository reflect my progress and learning.
 
-##Topics to Come
+**Topics to Come**
 
 - Control structures
 - Functions and modules
