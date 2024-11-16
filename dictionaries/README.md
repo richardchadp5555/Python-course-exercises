@@ -2,6 +2,14 @@
 
 This folder provides an in-depth look at dictionaries in Python, a versatile data structure used to store key-value pairs. Below, you’ll find explanations of core dictionary concepts, operations, and example code snippets.
 
+## Exercises
+
+The **exercises** subdirectory contains several practical tasks to deepen your understanding of Python dictionaries:
+- Exercise 1: Count character occurrences in a string.
+- Exercise 2: Manage a fruit inventory and calculate prices.
+- Exercise 3: Build an interactive phone directory with features like adding, updating, searching, and deleting contacts.
+Check the exercises/README.md for more details about the exercises.
+
 ## What is a Dictionary?
 
 A **dictionary** in Python is a mutable data structure that stores data in **key-value pairs**. Dictionaries are highly efficient for lookups, adding, and deleting items by their keys.
