@@ -23,6 +23,13 @@ En este directorio voy guardando ejercicios y ejemplos básicos para practicar e
   - Validación de la existencia de la fruta en el diccionario.
   - Manejo de errores para entradas no numéricas en la cantidad.
   - Funcionalidad para repetir la consulta según la elección del usuario.
-
+- **ejercicio_3_diccionarios.py**: Programa que implementa un listín telefónico utilizando un diccionario. 
+Ofrece las siguientes funcionalidades:
+  - Mostrar el listín telefónico (orden por defecto y alfabético)
+  - Añadir un nuevo contacto, comprobando que su teléfono sea un número de 9 dígitos
+  - Modificar el telefono de un contacto existente
+  - Eliminar un contacot
+  - Borrar todo el listín
+  - Un menú interactivo
   
 Este directorio es parte de mi material de estudio personal en Python, donde guardo ejercicios para afianzar conceptos y experimentar con código.
