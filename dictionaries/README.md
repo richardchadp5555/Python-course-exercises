@@ -3,12 +3,44 @@
 This folder provides an in-depth look at dictionaries in Python, a versatile data structure used to store key-value pairs. Below, you’ll find explanations of core dictionary concepts, operations, and example code snippets.
 
 ## Exercises
-
 The **exercises** subdirectory contains several practical tasks to deepen your understanding of Python dictionaries:
-- Exercise 1: Count character occurrences in a string.
-- Exercise 2: Manage a fruit inventory and calculate prices.
-- Exercise 3: Build an interactive phone directory with features like adding, updating, searching, and deleting contacts.
-Check the exercises/README.md for more details about the exercises.
+
+- **Exercise 1**: Count character occurrences in a string.
+  - Reads a string input from the user and creates a dictionary that counts the occurrences of each character in the string.
+  - **Objective**: Practice creating and manipulating dictionaries, as well as iterating through their keys and values.
+
+- **Exercise 2**: Manage a fruit inventory and calculate prices.
+  - Asks the user for a fruit name and quantity sold.
+  - Calculates the total price based on the stored prices in the dictionary.
+  - Includes error handling for invalid fruit names and non-numeric inputs.
+  - Allows the user to make multiple queries.
+  - **Objective**: Learn to validate user input and calculate values using dictionaries.
+
+- **Exercise 3**: Build an interactive phone directory.
+  - Implements a phone directory with features like adding, updating, searching, and deleting contacts.
+  - Displays the phone directory in default and alphabetical orders.
+  - Validates phone numbers (must be 9 digits).
+  - Includes an interactive menu for seamless navigation.
+  - **Objective**: Work with dictionary operations and build an interactive application.
+
+- **Exercise 4**: Store and display user information.
+  - Asks the user for their name, age, address, and phone number, then stores this data in a dictionary.
+  - Displays the following message:
+    ```
+    <name> is <age> years old, lives at <address>, and their phone number is <phone number>.
+    ```
+  - **Objective**: Practice basic input/output operations and storing user data in a dictionary.
+
+- **Exercise 5**: Analyze daily and monthly sales of a store.
+  - Analyzes sales data stored in a nested dictionary for four products over 30 days.
+  - Features include:
+    - Calculating total units sold for each product.
+    - Identifying the best-selling and least-selling product of the month.
+    - Displaying daily sales of the best-selling product.
+    - Finding the day with the highest sales for each product.
+  - **Objective**: Explore advanced use cases with nested dictionaries and perform calculations based on stored data.
+
+For more details about the exercises, check the `exercises/README.md`.
 
 ## What is a Dictionary?
 
