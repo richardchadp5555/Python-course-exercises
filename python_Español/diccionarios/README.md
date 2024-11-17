@@ -31,5 +31,5 @@ Ofrece las siguientes funcionalidades:
   - Eliminar un contacot
   - Borrar todo el listín
   - Un menú interactivo
-  
+- **ejercicio_4_diccionarios.py**: Programa que solicita al usuario su nombre, edad, dirección y teléfono, y guarda esta información en un diccionario. Después, muestra un mensaje con el formato:
 Este directorio es parte de mi material de estudio personal en Python, donde guardo ejercicios para afianzar conceptos y experimentar con código.
