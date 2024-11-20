@@ -9,3 +9,15 @@ El objetivo de este directorio es recopilar material de estudio de forma menos e
 ## Nota
 
 Este repositorio está escrito en español y destinado únicamente al desarrollo de mis conocimientos en Python. Contiene contenido de referencia rápida, ejercicios, y ejemplos prácticos, con archivos `README.md` básicos, escritos exclusivamente para facilitar mi aprendizaje.
+
+---
+
+## Requisitos
+- **Python 3.8 o superior**.
+- Un editor de código como **Visual Studio Code** o **PyCharm**.
+
+---
+
+**Autor:** Richard Chadwick Plaza  
+**Curso:** Segundo de DAM  
+**Asignatura:** Python

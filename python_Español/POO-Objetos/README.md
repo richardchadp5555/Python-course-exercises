@@ -166,4 +166,4 @@ print(rectangulo.calcular_area())
 
 **Autor:** Richard Chadwick Plaza  
 **Curso:** Segundo de DAM  
-**Asignatura:** Programación Orientada a Objetos en Python
+**Asignatura:** Python

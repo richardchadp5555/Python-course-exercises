@@ -45,3 +45,15 @@ En este directorio voy guardando ejercicios y ejemplos básicos para practicar e
 ---
 
 Este directorio es parte de mi material de estudio personal en Python, donde guardo ejercicios para afianzar conceptos y experimentar con código.
+
+---
+
+## Requisitos
+- **Python 3.8 o superior**.
+- Un editor de código como **Visual Studio Code** o **PyCharm**.
+
+---
+
+**Autor:** Richard Chadwick Plaza  
+**Curso:** Segundo de DAM  
+**Asignatura:** Python
