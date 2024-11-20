@@ -5,7 +5,7 @@ En este directorio tendremos ejercicios varios para aprender y practicar los con
 
 ## Ejercicios:
 - **ejercicio1-clasePunto.py**: primer ejercicio de POO donde trabajamos con una clase sencilla que representa un Punto en el eje cartesiano, sus atributos son las coordenadas x e y. Además, implementamos un método para calcular la distancia entre dos puntos y otro para trasladar un punto una distancia determinada
-- **ejercicio1-clasePunto.py**: en este ejercicio practicamos con el encapsulamiento en Python. Creamos una clase Alumno que tiene un atributo privado y demostramos como es necesario el empleo de métodos getters y setters para acceder a él y cambiar su valor
+- **ejercicio2-claseAlumno.py**: en este ejercicio practicamos con el encapsulamiento en Python. Creamos una clase Alumno que tiene un atributo privado y demostramos como es necesario el empleo de métodos getters y setters para acceder a él y cambiar su valor
 
 ## Conceptos Esenciales
 
