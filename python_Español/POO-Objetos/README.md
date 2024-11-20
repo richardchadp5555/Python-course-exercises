@@ -3,6 +3,9 @@
 
 En este directorio tendremos ejercicios varios para aprender y practicar los conceptos fundamentales de la **Programación Orientada a Objetos (POO)** en Python. La POO es un paradigma de programación basado en la creación y manipulación de "objetos" que modelan elementos del mundo real o abstracto.
 
+## Ejercicios:
+- **ejercicio1-clasePunto.py**: primer ejercicio de POO donde trabajamos con una clase sencilla que representa un Punto en el eje cartesiano, sus atributos son las coordenadas x e y. Además, implementamos un método para calcular la distancia entre dos puntos y otro para trasladar un punto una distancia determinada
+
 ## Conceptos Esenciales
 
 ### 1. **Clases y Objetos**
