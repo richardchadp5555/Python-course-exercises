@@ -41,7 +41,6 @@ class Persona():
         patronTelefonoValido = r"^\d{9}$"
         if not re.fullmatch(patronTelefonoValido, telefono):
             raise ValueError("Error: el teléfono proporcionado no cumple con el formato válido de 9 dígitos.")
-
         return telefono
     
     # Metodo para validar el nombre, devuelve el nombre si es correcto
