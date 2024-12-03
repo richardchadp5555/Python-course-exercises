@@ -12,6 +12,7 @@ from Persona import Persona
 # Diccionario de contactos
 contactos = {}
 
+
 # Método para mostrar el menú
 def mostrarMenu():
     print("\n****************MENÚ****************\n")
@@ -85,7 +86,7 @@ def nuevoContacto():
             contactos[nombre] = Persona(nombre, direccion, telefono)
             print("Nuevo contacto añadido correctamente. ")
         except ValueError as e:
-            print("Error al añadir el nuevo contacto: {e}")           
+            print(f"Error al añadir el nuevo contacto: {e}")           
     input("Presiona Enter para continuar...")
 
 # Método para buscar la información de un contacto por su teléfono
