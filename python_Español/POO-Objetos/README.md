@@ -159,6 +159,61 @@ class Rectangulo(Figura):
 rectangulo = Rectangulo(10, 5)
 print(rectangulo.calcular_area())
 ```
+---
+## Ejercicios:
+
+### 1. **Clase Punto**
+Archivo: `ejercicio1-clasePunto.py`
+
+- Representa un punto en un plano cartesiano mediante dos atributos (`x` y `y`).
+- Implementa métodos para calcular la distancia entre dos puntos y para trasladar un punto.
+
+### 2. **Clase Alumno**
+Archivo: `ejercicio2-claseAlumno.py`
+
+- Practica el encapsulamiento en Python.
+- Define un atributo privado (`__atributoPrivado`) y su acceso a través de getters y setters.
+
+### 3. **Diccionario de Contactos**
+Carpeta: `ejercicio-3-diccionario-de-contactos`
+
+Este proyecto incluye:
+- **`Persona.py`:** Clase que encapsula datos como nombre, dirección y teléfono con validaciones.
+- **`Principal.py`:** Programa principal que implementa un diccionario de contactos con opciones para añadir, modificar, buscar, listar y eliminar contactos.
+
+#### Funcionalidades:
+- Listado de contactos ordenado alfabéticamente.
+- Gestión de contactos con validaciones en nombre y teléfono.
+
+### 4. **Gestión de Cuentas Bancarias**
+Carpeta: `ejercicio-4-gestion-de-cuentas`
+
+Este proyecto incluye:
+- **`Persona.py`:** Clase que encapsula información personal (nombre, apellidos, DNI y edad).
+- **`Cuenta.py`:** Clase para gestionar una cuenta bancaria con operaciones básicas.
+- **`CuentaJoven.py`:** Subclase de `Cuenta`, destinada a titulares menores de 25 años con bonificación.
+- **`validar_DNI.py`:** Función para validar el formato del DNI.
+- **`Principal.py`:** Programa principal para gestionar cuentas, incluyendo un menú interactivo.
+
+#### Funcionalidades:
+- Crear cuentas normales y cuentas jóvenes.
+- Ingresar, retirar y listar cuentas.
+- Validación de DNI y restricciones para cuentas jóvenes.
+
+### 5. **Gestión de Productos**
+Carpeta: `ejercicio-5-gestion-productos`
+
+Este proyecto incluye:
+- **`Producto.py`:** Clase base para representar un producto con atributos como nombre, precio y descuento.
+- **`Comida.py`:** Subclase que representa productos alimenticios, sin permitir descuentos.
+- **`Electronico.py`:** Subclase para productos electrónicos, con un descuento máximo del 10%.
+- **`Ropa.py`:** Subclase para productos de ropa, con un descuento máximo del 20%.
+- **`Principal.py`:** Programa principal para gestionar productos mediante un menú interactivo.
+
+#### Funcionalidades:
+- Añadir productos (electrónicos, ropa, comida).
+- Calcular precio final tras aplicar descuentos.
+- Listar todos los productos registrados.
 
 ---
 
