@@ -77,6 +77,32 @@ Archivo: `ejercicios/ejemplo3.py`
 
 ---
 
+## Recomendación: Usar la extensión SQLite en Visual Studio Code
+
+Para facilitar el manejo de bases de datos SQLite en tu proyecto, se recomienda instalar la extensión **SQLite** para Visual Studio Code.
+
+### **Pasos para instalar y usar la extensión SQLite:**
+
+1. **Instalar la extensión**:
+   - Ve a la barra lateral de **Extensiones** en Visual Studio Code (Ctrl+Shift+X).
+   - Busca "SQLite" (autor: alexcvzz).
+   - Haz clic en **Instalar**.
+
+2. **Abrir tu base de datos**:
+   - Abre el panel de comandos con `Ctrl+Shift+P` (o `Cmd+Shift+P` en Mac).
+   - Escribe `SQLite: Open Database` y selecciona esta opción.
+   - Navega hasta tu base de datos (por ejemplo, `databases/base_datos_1.db`) y ábrela.
+
+3. **Explorar la base de datos**:
+   - En el panel lateral izquierdo, verás las tablas de la base de datos, su estructura (columnas) y podrás ejecutar consultas directamente.
+
+### **Ventajas de usar esta extensión:**
+- Explorar tablas y ver datos directamente desde Visual Studio Code.
+- Ejecutar comandos SQL y ver resultados en tiempo real.
+- Ideal para proyectos pequeños y educativos.
+
+---
+
 **Autor:** Richard Chadwick Plaza  
 **Curso:** Segundo de DAM  
 **Asignatura:** Python
