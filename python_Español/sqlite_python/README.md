@@ -1,0 +1,82 @@
+# Bases de Datos con SQLite en Python
+
+En este directorio exploraremos el manejo de **bases de datos relacionales** usando **SQLite** con Python. Aprenderás a conectar una base de datos, realizar operaciones CRUD (crear, leer, actualizar y eliminar), y gestionar datos de manera eficiente.
+
+---
+
+## Estructura del Proyecto
+
+### **Carpetas principales**
+- **`apuntes/`**: Aquí encontrarás los documentos de referencia y teoría compartidos por la profesora.
+- **`databases/`**: Carpeta donde se almacenarán las bases de datos SQLite utilizadas en los ejercicios.
+- **`ejercicios/`**: Contiene los scripts de Python para cada ejercicio práctico.
+
+---
+
+## Ejercicios
+
+### 1. **Crear y gestionar una tabla**
+Archivo: `ejercicios/ejemplo1.py`
+
+- Crear una base de datos SQLite.
+- Definir y crear una tabla llamada `usuarios` con campos básicos como ID, nombre y edad.
+
+### 2. **Insertar datos y realizar consultas**
+Archivo: `ejercicios/ejemplo2.py`
+
+- Insertar datos en la tabla creada.
+- Consultar y mostrar los datos almacenados.
+
+### 3. **Operaciones CRUD completas**
+Archivo: `ejercicios/ejemplo3.py`
+
+- Implementar las operaciones completas: crear, leer, actualizar y eliminar registros de la base de datos.
+
+---
+
+## Conceptos Fundamentales
+
+1. **SQLite**
+   - Una base de datos ligera y fácil de usar, integrada directamente con Python mediante el módulo `sqlite3`.
+   - Ideal para proyectos pequeños y pruebas locales.
+
+2. **Operaciones CRUD**
+   - **C**reate: Crear tablas y añadir datos.
+   - **R**ead: Consultar y mostrar datos almacenados.
+   - **U**pdate: Modificar datos existentes.
+   - **D**elete: Eliminar datos de la base de datos.
+
+3. **Gestión de la conexión**
+   - Siempre abrir una conexión antes de realizar operaciones.
+   - Confirmar los cambios con `commit()`.
+   - Cerrar la conexión al finalizar para evitar problemas de acceso o pérdida de datos.
+
+---
+
+## Cómo ejecutar los ejercicios
+
+### Desde Visual Studio Code
+1. Abre el archivo del ejercicio que desees ejecutar en **Visual Studio Code**.
+2. Haz clic en el botón **Run** (arriba a la derecha) o presiona `F5` para ejecutar el script.
+3. Verifica los resultados en la terminal integrada de VS Code.
+
+### Desde la consola o terminal (cmd, bash, etc.)
+1. Navega al directorio del ejercicio que quieras ejecutar, por ejemplo:
+   ```bash
+   cd ejercicios
+   ```
+2. Ejecuta el script correspondiente con:
+   ```bash
+   python ejemplo1.py
+   ```
+---
+
+## Requisitos
+- **Python 3.8 o superior**.
+- Un editor de código como **Visual Studio Code** o **PyCharm**.
+
+---
+
+**Autor:** Richard Chadwick Plaza  
+**Curso:** Segundo de DAM  
+**Asignatura:** Python
