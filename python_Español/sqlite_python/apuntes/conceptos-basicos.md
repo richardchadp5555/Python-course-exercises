@@ -78,6 +78,65 @@ print("Tabla 'usuarios' creada con éxito.")
 
 ---
 
+## `execute` vs `executemany`
+
+Al trabajar con SQLite, es importante entender cuándo usar `execute` y cuándo `executemany` dependiendo del caso:
+
+### **`execute`**
+- Se usa para ejecutar **un único comando SQL**.
+- Ejemplo típico: crear una tabla o realizar una consulta.
+
+#### Ejemplo:
+```python
+# Crear una tabla con un único comando
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nombre TEXT,
+    edad INTEGER
+)
+''')
+
+# Consultar datos
+cursor.execute('SELECT * FROM usuarios')
+registros = cursor.fetchall()
+for registro in registros:
+    print(registro)
+```
+- Aquí, `execute` se usa porque solo ejecutamos una instrucción SQL cada vez.
+
+---
+
+### **`executemany`**
+- Se usa cuando necesitas ejecutar **el mismo comando SQL varias veces** con diferentes datos.
+- Ejemplo típico: insertar varios registros a la vez.
+
+#### Ejemplo:
+```python
+# Insertar múltiples registros en la tabla
+usuarios = [
+    ('Juan', 25),
+    ('María', 30),
+    ('Carlos', 22)
+]
+
+cursor.executemany('INSERT INTO usuarios (nombre, edad) VALUES (?, ?)', usuarios)
+print("Datos insertados correctamente.")
+```
+- Aquí, `executemany` es más eficiente porque ejecuta el mismo comando SQL para todos los registros sin tener que llamarlo repetidamente.
+
+---
+
+### **Diferencias clave entre `execute` y `executemany`**
+1. **Uso:**
+   - `execute`: Para una sola operación SQL.
+   - `executemany`: Para ejecutar el mismo comando SQL con diferentes datos.
+
+2. **Eficiencia:**
+   - `executemany` es más eficiente cuando tienes múltiples filas de datos que insertar o procesar.
+
+---
+
 ## Recomendaciones
 
 1. **Evita usar comandos SQL sin validación**:
@@ -98,4 +157,4 @@ print("Tabla 'usuarios' creada con éxito.")
      finally:
          if conn:
              conn.close()
-     
+     ```
