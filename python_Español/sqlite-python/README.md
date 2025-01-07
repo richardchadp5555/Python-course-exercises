@@ -1,19 +1,19 @@
-# Bases de Datos con SQLite en Python
+# Bases de Datos con SQLite en Python 🌐
 
 En este directorio exploraremos el manejo de **bases de datos relacionales** usando **SQLite** con Python. Aprenderás a conectar una base de datos, realizar operaciones CRUD (crear, leer, actualizar y eliminar), y gestionar datos de manera eficiente.
 
 ---
 
-## Estructura del Proyecto
+## Estructura del Proyecto 🗁
 
 ### **Carpetas principales**
 - **`apuntes/`**: Aquí encontrarás los documentos de referencia y teoría compartidos por la profesora.
-- **`databases/`**: Carpeta donde se almacenarán las bases de datos SQLite utilizadas en los ejercicios.
+- **`databases/`**: Carpeta donde se almacenan las bases de datos SQLite utilizadas en los ejercicios.
 - **`ejercicios/`**: Contiene los scripts de Python para cada ejercicio práctico.
 
 ---
 
-## Ejercicios
+## Ejercicios 🔢
 
 ### 1. **Crear y gestionar una tabla**
 Archivo: `ejercicios/ejemplo1.py`
@@ -32,9 +32,17 @@ Archivo: `ejercicios/ejemplo3.py`
 
 - Implementar las operaciones completas: crear, leer, actualizar y eliminar registros de la base de datos.
 
+### 4. **Gestión de Tienda con SQLite 🛒**
+Archivo: `ejercicios/ejercicio4-gestionTienda/`
+
+- Implementa un sistema de gestión de tienda.
+- Utiliza clases como `Producto` y `Tienda`.
+- Permite operaciones CRUD con un menú interactivo.
+- Integra manejo de excepciones y validaciones.
+
 ---
 
-## Conceptos Fundamentales
+## Conceptos Fundamentales ⚖️
 
 1. **SQLite**
    - Una base de datos ligera y fácil de usar, integrada directamente con Python mediante el módulo `sqlite3`.
@@ -53,7 +61,7 @@ Archivo: `ejercicios/ejemplo3.py`
 
 ---
 
-## Cómo ejecutar los ejercicios
+## Cómo ejecutar los ejercicios 🚀
 
 ### Desde Visual Studio Code
 1. Abre el archivo del ejercicio que desees ejecutar en **Visual Studio Code**.
@@ -69,15 +77,16 @@ Archivo: `ejercicios/ejemplo3.py`
    ```bash
    python ejemplo1.py
    ```
+
 ---
 
-## Requisitos
+## Requisitos 🔧
 - **Python 3.8 o superior**.
 - Un editor de código como **Visual Studio Code** o **PyCharm**.
 
 ---
 
-## Recomendación: Usar la extensión SQLite en Visual Studio Code
+## Recomendación: Usar la extensión SQLite en Visual Studio Code 📊
 
 Para facilitar el manejo de bases de datos SQLite en tu proyecto, se recomienda instalar la extensión **SQLite** para Visual Studio Code.
 
@@ -105,4 +114,4 @@ Para facilitar el manejo de bases de datos SQLite en tu proyecto, se recomienda 
 
 **Autor:** Richard Chadwick Plaza  
 **Curso:** Segundo de DAM  
-**Asignatura:** Python
+**Asignatura:** Python 💻
